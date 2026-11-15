@@ -23,7 +23,7 @@ struct InstallScreen: View {
     @State private var confirmingCancel = false
 
     /// The memory limits a VM can have, here and in its settings.
-    static let memoryChoices = [4, 6, 8]
+    static let memoryChoices = [2, 4, 6, 8, 10, 12]
 
     /// The disk sizes the slider stops at, for the selected image.
     private var diskStops: [Int] {
